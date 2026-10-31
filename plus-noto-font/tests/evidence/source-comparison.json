@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "fonts": [
+    {
+      "file": "font-24-400.ntf",
+      "pixels": 24,
+      "weight": 400,
+      "bytes": 622923,
+      "glyphs": 7056,
+      "sha256": "eb16304a0d77f632856cdb9972a65acedc606ee8f915c8c38d5303543e296875"
+    },
+    {
+      "file": "font-24-500.ntf",
+      "pixels": 24,
+      "weight": 500,
+      "bytes": 624955,
+      "glyphs": 7056,
+      "sha256": "d8f1fbc3ab5366c78c1f5b33b181b5281ec37b075db37a3e56acac9e085c5741"
+    },
+    {
+      "file": "font-24-600.ntf",
+      "pixels": 24,
+      "weight": 600,
+      "bytes": 627148,
+      "glyphs": 7056,
+      "sha256": "78e23354931e1e25d2574366aab7d262debecec7f5aee4dd9de25d79b055191f"
+    },
+    {
+      "file": "font-28-400.ntf",
+      "pixels": 28,
+      "weight": 400,
+      "bytes": 785375,
+      "glyphs": 7056,
+      "sha256": "7bc8b6410245997912f1915e3c1a996af58036cd6ca9f17932a9d4d3b630a5ea"
+    },
+    {
+      "file": "font-28-500.ntf",
+      "pixels": 28,
+      "weight": 500,
+      "bytes": 787902,
+      "glyphs": 7056,
+      "sha256": "4cb220d5ffafecbe42dae6fe4d0aab426db10d463fd70a1a5b9427019f1d8f9c"
+    },
+    {
+      "file": "font-28-600.ntf",
+      "pixels": 28,
+      "weight": 600,
+      "bytes": 790485,
+      "glyphs": 7056,
+      "sha256": "01c53336fcd1c6e935515f9557ea95b65efbf84c11548491337e125064458212"
+    },
+    {
+      "file": "font-32-400.ntf",
+      "pixels": 32,
+      "weight": 400,
+      "bytes": 979361,
+      "glyphs": 7056,
+      "sha256": "fc0c86878217efc0b925098a472fca7371c78fb5b7a11a75fce91b2e70706fe5"
+    },
+    {
+      "file": "font-32-500.ntf",
+      "pixels": 32,
+      "weight": 500,
+      "bytes": 995783,
+      "glyphs": 7056,
+      "sha256": "10511b64bb3d6683a9ef48f08a6177d379e515ede59454697fe41b443789e3cb"
+    },
+    {
+      "file": "font-32-600.ntf",
+      "pixels": 32,
+      "weight": 600,
+      "bytes": 998814,
+      "glyphs": 7056,
+      "sha256": "b1066de1bbe28754543d5a8a5e8c7dd2ef079f6b15126b26acaa02636f472fa2"
+    },
+    {
+      "file": "font-36-400.ntf",
+      "pixels": 36,
+      "weight": 400,
+      "bytes": 1206367,
+      "glyphs": 7056,
+      "sha256": "25f2d19aea7497d5b5632e0393e6f11b37443583e72bfcd629f07d59f6544058"
+    },
+    {
+      "file": "font-36-500.ntf",
+      "pixels": 36,
+      "weight": 500,
+      "bytes": 1211315,
+      "glyphs": 7056,
+      "sha256": "44c9f25120f258611f6988024a6e16d542adb702072f049a3eb3c4b89b49b192"
+    },
+    {
+      "file": "font-36-600.ntf",
+      "pixels": 36,
+      "weight": 600,
+      "bytes": 1214882,
+      "glyphs": 7056,
+      "sha256": "94e72c71c929b9ec24c590ca1e2fbd205de51ed2ab3a0d0bbee44889b5d47a24"
+    },
+    {
+      "file": "font-40-400.ntf",
+      "pixels": 40,
+      "weight": 400,
+      "bytes": 1436313,
+      "glyphs": 7056,
+      "sha256": "c1c55d8760780ac7b11776485eb0758469647ec6febf89c7090a69c9d59a2c34"
+    },
+    {
+      "file": "font-40-500.ntf",
+      "pixels": 40,
+      "weight": 500,
+      "bytes": 1444818,
+      "glyphs": 7056,
+      "sha256": "991bda0485e6a9868a635e4f1bc0125789fa6c484b4bda8d209d627ee19b26b8"
+    },
+    {
+      "file": "font-40-600.ntf",
+      "pixels": 40,
+      "weight": 600,
+      "bytes": 1450049,
+      "glyphs": 7056,
+      "sha256": "df36cb70606e94780efcb5a28fbfc9d92d8d7b7105b50d160656f82b224db5b5"
+    },
+    {
+      "file": "font-48-400.ntf",
+      "pixels": 48,
+      "weight": 400,
+      "bytes": 2014164,
+      "glyphs": 7056,
+      "sha256": "ffc6670d9fba8063010a0e9ffe50f52cd1a60fdf38597d5e95a8c4cecd29eebc"
+    },
+    {
+      "file": "font-48-500.ntf",
+      "pixels": 48,
+      "weight": 500,
+      "bytes": 2022756,
+      "glyphs": 7056,
+      "sha256": "0e5b7a2116d2b152ea3cd73593d15b7c5da2a9499268a85f2d83b3dbce04c96c"
+    },
+    {
+      "file": "font-48-600.ntf",
+      "pixels": 48,
+      "weight": 600,
+      "bytes": 2028759,
+      "glyphs": 7056,
+      "sha256": "e4ff89bbd408325a682e4bed5b978ca27f7eb0061d09ad8990ae0e00caf63e80"
+    }
+  ],
+  "glyph_records": 127008,
+  "reference_glyph_comparisons": 8010,
+  "reference_checked": true
+}

@@ -1,0 +1,70 @@
+{
+  "package": "plus-noto-font",
+  "version": "1.0.0",
+  "completed_at": "2026-11-01T00:02:38+08:00",
+  "status": "PASS_HOST_AND_HANDOFF_CHECKS",
+  "target": "Metalio E-INK4 Plus 4.7 inch; native 1216x684 or rotated 684x1216",
+  "license_decision": {
+    "original_code_and_docs": "MIT; explicitly confirmed by user",
+    "noto_font_and_derivatives": "OFL-1.1; original Adobe copyright and full license retained",
+    "original_ofl_matches_accepted_project": true,
+    "generated_license_runtime_entry_tested": true
+  },
+  "font_assets": {
+    "pixel_sizes": [24, 28, 32, 36, 40, 48],
+    "weights": [400, 500, 600],
+    "threshold": 112,
+    "bpp": 1,
+    "pack_count": 18,
+    "codepoints_per_pack": 7056,
+    "han_per_pack": 6763,
+    "glyph_records_checked": 127008,
+    "compressed_total_bytes": 9003655,
+    "default_32_500_font_bytes": 995783,
+    "test_source_font_sha256": "2eab0943d6a0120e8b4da6330e0d761cdfd6852272116a601b7cbb97af6a624c",
+    "source_sample_equivalence": "PASS: all 8010 prior test glyphs (445 x 18) have identical bitmaps, bearings, advances and spec metrics",
+    "old_source_font_test_user_acceptance": "User accepted the test and preferred slightly solid strokes (threshold 112)",
+    "expanded_charset_hardware_acceptance": "Not individually tested on hardware in this package task"
+  },
+  "runtime": {
+    "source_sha256": "960566f6a5776e2a43562f53e13617fb1f3307a0d8df8cba4575b8e509bd9e80",
+    "cpp_standard": "C++11",
+    "heap_allocation": false,
+    "sdk_runtime_dependency": false,
+    "host_compiler": "Ubuntu g++ 13.3.0; -Wall -Wextra -Werror",
+    "asan_ubsan": "PASS: independent bit-pattern fixture and all 18 real packs",
+    "checks": ["native bearings", "UTF-8 and replacement counters", "line breaks", "transparent drawing", "both buffer polarities", "white ink", "row stride and clipping", "truncated and malformed packs", "coordinate overflow", "source data lifetime documented"],
+    "cmake_component_and_ctest": "PASS",
+    "target_compiler": "riscv32-esp-elf-g++ esp-15.2.0_20251204",
+    "target_compile_only": "PASS: runtime, generated font array and example; no device firmware flashing",
+    "target_runtime_object_text_bytes": 2681,
+    "target_runtime_object_data_bss_bytes": 0,
+    "size_note": "Object code size excludes font data, app frame buffer, license text and final link overhead"
+  },
+  "handoff": {
+    "skill_frontmatter_validation": "PASS",
+    "independent_agent_trial": "PASS: followed SKILL and README from a relocated folder with spaces",
+    "prepare_without_third_party_python_packages": "PASS (Python -B -S)",
+    "external_workspace_reads_blocked_during_prepare": "PASS",
+    "two_fonts_linked": true,
+    "menu": {"pixels": 28, "weight": 400, "glyphs": 103, "bytes": 6589},
+    "body": {"pixels": 40, "weight": 500, "glyphs": 7056, "bytes": 1444818},
+    "portrait": {"width": 684, "height": 1216, "stride_bytes": 86, "buffer_bytes": 104576, "pixel_comparison_cases": 10},
+    "regular_text_missing": 0,
+    "expected_missing_and_invalid_utf8_counters": "PASS",
+    "complete_ofl_obtainable_from_compiled_program": true
+  },
+  "evidence_reproduction": [
+    "python tests/check_assets.py --output output/check",
+    "bash tests/run_host.sh",
+    "cmake -S tests -B build -DCMAKE_BUILD_TYPE=Debug; cmake --build build; ctest --test-dir build --output-on-failure",
+    "TARGET_CXX=<installed ESP RISC-V compiler> bash tests/compile_target.sh"
+  ],
+  "boundaries": [
+    "No device or TF-card operations in this task",
+    "Existing firmware, test BIN and source projects not modified",
+    "No global Skill installation or remote publication",
+    "Font package is a build resource, not a flashable firmware BIN",
+    "The old pocket plus.14 font issue still requires a separately authorized integration"
+  ]
+}

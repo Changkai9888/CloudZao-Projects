@@ -1,0 +1,54 @@
+{
+  "menu": {
+    "pixels": 28,
+    "weight": 400,
+    "threshold": 112,
+    "glyphs": 103,
+    "bytes": 6589,
+    "sha256": "5f5742a36e2725c131701dd652b9a9f00709a6b5118db914f1e5d2c026378f9d",
+    "subset": true,
+    "symbol_prefix": "plus_font_data",
+    "embedded_license_symbol": "plus_font_data_license",
+    "runtime_ofl_complete": true
+  },
+  "body": {
+    "pixels": 40,
+    "weight": 500,
+    "threshold": 112,
+    "glyphs": 7056,
+    "bytes": 1444818,
+    "sha256": "991bda0485e6a9868a635e4f1bc0125789fa6c484b4bda8d209d627ee19b26b8",
+    "subset": false,
+    "symbol_prefix": "body_font",
+    "embedded_license_symbol": "body_font_license",
+    "runtime_ofl_complete": true
+  },
+  "isolated_prepare_and_build": true,
+  "portrait": {
+    "width": 684,
+    "height": 1216,
+    "bit_depth": 1,
+    "stride_bytes": 86,
+    "frame_bytes": 104576,
+    "pbm_sha256": "af82b00cf44b22b07310de9a97babbe6a08492196da979b56d7a31834e379644",
+    "png_sha256": "826d263d09fb859b5b2cf120ef8b8c2343f1b7cd28c3b1e9df26a581f763fa56"
+  },
+  "runtime": {
+    "status": "PASS",
+    "width": 684,
+    "height": 1216,
+    "stride": 86,
+    "frame_bytes": 104576,
+    "menu_glyphs": 103,
+    "body_glyphs": 7056,
+    "menu_bytes": 6589,
+    "body_bytes": 1444818,
+    "native_cases": 10,
+    "regular_text_missing": 0,
+    "menu_missing_probe": 1,
+    "body_missing_probe": 1,
+    "invalid_utf8_probe": 2
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "status": "PASS"
+}

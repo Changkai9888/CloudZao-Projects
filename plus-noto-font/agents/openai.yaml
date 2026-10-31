@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plus 黑白字体接入"
+  short_description: "复用已验收的 Noto 稍实笔画，按需接入 Plus 原生黑白字体组件"
+  default_prompt: "使用 $plus-noto-font 为我的 Plus 固件接入稍实笔画，复用现成字库并核对字符覆盖。"
